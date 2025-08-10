@@ -151,15 +151,3 @@ The substantial performance gains with genomic data demonstrate the potential fo
 survival analysis, breast cancer, machine learning, genomics, Random Survival Forest, Cox regression, METABRIC, precision medicine, high-dimensional data
 
 ---
-
-## Citation
-If you use this work, please cite:
-```
-Everaert, M. & Holt, D. (2025). Survival Analysis and Predictive Modeling in Breast Cancer: 
-Integrating Clinical and Genomic Features Using Machine Learning. Graduate Mathematics Final Project.
-```
-
-## Acknowledgments
-- METABRIC Consortium for dataset access
-- Astley et al. (2024) for survival analysis framework reference
-- Course instructors and peers for guidance and feedback
