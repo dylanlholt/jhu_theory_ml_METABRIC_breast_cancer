@@ -2,9 +2,9 @@
 
 ## Survival Analysis and Predictive Modeling Using Machine Learning
 
-**Authors:** Miro Everaert and Dylan Holt  
+**Authors:** Dylan Holt and Miro Everaert
 **Date:** August 10, 2025  
-**Course:** Graduate Mathematics - Final Project
+**Course:** JHU ACM EN.625.742 Theory of Machine Learning (Summer 2025)
 
 ---
 
@@ -111,39 +111,12 @@ The substantial performance gains with genomic data demonstrate the potential fo
 
 3. **Model Training & Evaluation**
    - Cross-validation framework
-   - Survival metric calculation (C-index, IBS)
+   - Survival metric calculation (C-index)
    - Statistical significance testing
 
 ### Evaluation Metrics
 - **Concordance Index (C-Index):** Measures discrimination ability
-- **Integrated Brier Score (IBS):** Measures calibration accuracy
 - **Hazard Ratios:** Risk quantification for Cox regression
-
----
-
-## Repository Structure
-```
-├── data/
-│   ├── metabric_clinical_data.csv
-│   ├── metabric_expression_data.csv
-│   └── metabric_mutation_data.csv
-├── notebooks/
-│   ├── 01_exploratory_data_analysis.ipynb
-│   ├── 02_feature_reduction_pca.ipynb
-│   ├── 03_traditional_survival_analysis.ipynb
-│   └── 04_machine_learning_survival_models.ipynb
-├── src/
-│   ├── data_preprocessing.py
-│   ├── survival_models.py
-│   ├── evaluation_metrics.py
-│   └── visualization.py
-├── results/
-│   ├── model_performance_comparison.csv
-│   ├── hazard_ratios_table.csv
-│   └── survival_curves.png
-└── presentation/
-    └── METABRIC_Final_Presentation.pdf
-```
 
 ---
 
